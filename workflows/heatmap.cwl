@@ -35,16 +35,14 @@ steps:
     in:
       script: clean_up_data_script
       input_file: gct_file
-    out:
-      - output_file
+    out: [output_file]
 
   run_t_test:
     run: ../tools/run_custom_script.cwl
     in:
       script: run_t_test_script
       input_file: clean_up_data/output_file
-    out:
-      - output_file
+    out: [output_file]
 
   make_heatmap:
     run: ../tools/run_custom_script.cwl
@@ -53,6 +51,4 @@ steps:
       input_file:
         - clean_up_data/output_file
         - run_t_test/output_file
-    out:
-      - output_file
-
+    out: [output_file]
