@@ -16,13 +16,6 @@ inputs:
     inputBinding:
       position: 2
 
-  params:
-    type:
-    - string?
-    - string[]
-    inputBinding:
-      position: 3
-
 
 outputs:
 
