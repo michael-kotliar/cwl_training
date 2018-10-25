@@ -1,1 +1,1 @@
-## CWL Taraining Examples
+## CWL Training Examples
