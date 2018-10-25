@@ -1,0 +1,18 @@
+{
+  "gct_file": {
+    "class": "File",
+    "location": "../data/54_breast_cancer_ilincs.gct"
+  },
+  "clean_up_data_script": {
+    "class": "File",
+    "location": "../../scripts/clean_up_data.R"
+  },
+  "run_t_test_script": {
+    "class": "File",
+    "location": "../../scripts/run_t_test.R"
+  },
+  "make_heatmap_script": {
+    "class": "File",
+    "location": "../../scripts/make_heatmap.R"
+  }
+}
