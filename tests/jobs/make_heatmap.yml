@@ -1,0 +1,7 @@
+cleaned_gct_file:
+  class: File
+  location: ../data/54_breast_cancer_ilincs_cleaned.gct
+
+p_value_file:
+  class: File
+  location: ../data/54_breast_cancer_ilincs_cleaned_p_values.tsv
