@@ -1,0 +1,4 @@
+src_file:
+  class: File
+  location: ../data/echo.txt
+trgt_filename: renamed.txt
