@@ -7,8 +7,7 @@
 #                     #
 #######################
 
-args <- commandArgs(trailingOnly = TRUE)
-cleaned_breast_cancer_filename = as.character(args[1])
+cleaned_breast_cancer_filename = "/Users/kot4or/workspaces/cwl_ws/cwl_training/tests/data/54_breast_cancer_ilincs_cleaned.gct"
 p_values_filename = paste0(head(unlist(strsplit(basename(cleaned_breast_cancer_filename), ".", fixed = TRUE)), 1), "_p_values.tsv")
 
 #Read in the text file
