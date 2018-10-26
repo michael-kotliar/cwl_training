@@ -3,7 +3,7 @@
 #######################
 #                     #
 # Functional Genomics #
-#   Barski Script 3   #
+#    make_heatmap     #
 #                     #
 #######################
 

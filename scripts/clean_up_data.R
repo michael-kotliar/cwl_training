@@ -3,7 +3,7 @@
 #######################
 #                     #
 # Functional Genomics #
-#   Barski Script 1   #
+#    clean_up_data    #
 #                     #
 #######################
 

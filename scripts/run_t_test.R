@@ -3,7 +3,7 @@
 #######################
 #                     #
 # Functional Genomics #
-#   Barski Script 2   #
+#     run_t_test      #
 #                     #
 #######################
 
