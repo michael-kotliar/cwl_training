@@ -21,3 +21,6 @@ install.packages('https://cran.r-project.org/src/contrib/Archive/as.color/as.col
 ## Slides
 
 To get the latest slides click [here](https://raw.githubusercontent.com/michael-kotliar/cwl_training/master/slides/cwl_workshop.pptx)
+
+## Downloads
+Get latest [ZIP](https://github.com/michael-kotliar/cwl_training/archive/0.0.1.zip)
