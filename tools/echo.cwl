@@ -13,8 +13,9 @@ inputs:
 outputs:
 
   echo_file:
-    type: stdout
-
+    type: File
+    outputBinding:
+      glob: "*"
 
 stdout: "echo.txt"
 
