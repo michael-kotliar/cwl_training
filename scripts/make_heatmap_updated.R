@@ -15,7 +15,7 @@ library(as.color)
 args <- commandArgs(trailingOnly = TRUE)
 cleaned_breast_cancer_filename = as.character(args[1])
 p_values_filename = as.character(args[2])
-max_p_values = as.character(args[3])
+max_p_value = as.character(args[3])
 heatmap_filename = paste0(head(unlist(strsplit(basename(cleaned_breast_cancer_filename), ".", fixed = TRUE)), 1), "_heatmap.pdf")
 
 #Export all graphics to file
@@ -32,7 +32,7 @@ expression_data_new=cbind(c("ER_status", as.character(expression_data[15:nrow(ex
 colnames(expression_data_new)[1]="ID"
 
 #reduce to top n significant genes
-n=min(500, length(which(statistics_data[,4]<=max_p_values)))
+n=min(500, length(which(statistics_data[,4]<=max_p_value)))
 statistics_data_reduced=statistics_data[1:n,]
 expression_data_reduced=left_join(statistics_data_reduced, expression_data_new, by=c("ID"="ID")) #more than n rows due to duplicate names
 expression_data_reduced=expression_data_reduced[,-(2:4)]
