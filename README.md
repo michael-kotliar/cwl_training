@@ -1,5 +1,7 @@
 
-# Requirements
+# CWL Training Examples
+
+## Requirements
 
 - Rabix Composer 1.0.0
 - Java Development Kit 8+
@@ -16,6 +18,6 @@ install.packages('https://cran.r-project.org/src/contrib/Archive/as.color/as.col
 ```
 
 
-# Slides
+## Slides
 
 To get the latest slides click [here](https://raw.githubusercontent.com/michael-kotliar/cwl_training/master/slides/cwl_workshop.pptx)
