@@ -19,4 +19,4 @@ install.packages('https://cran.r-project.org/src/contrib/Archive/as.color/as.col
 
 
 ## Downloads
-Get latest [ZIP](https://github.com/michael-kotliar/cwl_training/archive/0.0.1.zip)
+Get the latest [ZIP](https://github.com/michael-kotliar/cwl_training/archive/latest.zip)
