@@ -9,6 +9,7 @@
     - dplyr
     - gplots
     - as.color
+- Docker
 
 To install required R packages:
 ```
