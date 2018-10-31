@@ -12,8 +12,9 @@ library(dplyr)
 library(gplots)
 library(as.color)
 
-cleaned_breast_cancer_filename = "/Users/kot4or/workspaces/cwl_ws/cwl_training/tests/data/54_breast_cancer_ilincs_cleaned.gct"
-p_values_filename = "/Users/kot4or/workspaces/cwl_ws/cwl_training/tests/data/54_breast_cancer_ilincs_cleaned_p_values.tsv"
+args <- commandArgs(trailingOnly = TRUE)
+cleaned_breast_cancer_filename = as.character(args[1])
+p_values_filename = as.character(args[2])
 heatmap_filename = paste0(head(unlist(strsplit(basename(cleaned_breast_cancer_filename), ".", fixed = TRUE)), 1), "_heatmap.pdf")
 
 #Export all graphics to file

@@ -7,7 +7,8 @@
 #                     #
 #######################
 
-breast_cancer_filename = "/Users/kot4or/workspaces/cwl_ws/cwl_training/tests/data/54_breast_cancer_ilincs.gct"
+args <- commandArgs(trailingOnly = TRUE)
+breast_cancer_filename = as.character(args[1])
 cleaned_breast_cancer_filename = paste0(head(unlist(strsplit(basename(breast_cancer_filename), ".", fixed = TRUE)), 1), "_cleaned.gct")
 
 #Read in the GCT file from iLINCS
