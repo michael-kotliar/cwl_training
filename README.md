@@ -24,6 +24,7 @@ For additional information follow the [slides](https://raw.githubusercontent.com
 Get the latest training version
  - *[cwl_training.zip](https://github.com/michael-kotliar/cwl_training/archive/latest_training.zip)*
  - *[cwl_training.tar.gz](https://github.com/michael-kotliar/cwl_training/archive/latest_training.tar.gz)*
+
 Get the latest complete version
 - *[cwl_complete.zip](https://github.com/michael-kotliar/cwl_training/archive/latest_complete.zip)*
 - *[cwl_complete.tar.gz](https://github.com/michael-kotliar/cwl_training/archive/latest_complete.tar.gz)*
